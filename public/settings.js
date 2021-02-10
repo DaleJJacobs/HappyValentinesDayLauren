@@ -1,8 +1,3 @@
-/*
- * Created Date: Friday, 5th February 2021, 1:06:30 am
- * Author: Kingsley Chimezie
- */
-
 /* FIREBASE CONFIG
 -------------------------------- */
 // PASTE YOUR WEB APP FIREBASE CONFIG HERE

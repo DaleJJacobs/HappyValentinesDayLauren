@@ -1,10 +1,3 @@
-/*
- * Created Date: Wednesday, 3rd February 2021, 7:08:22 pm
- * Author: Kingsley Chimezie
- */
-
-
- 
 /* VARIABLES
 ************************************************************************************/
  // Get elements
@@ -100,8 +93,6 @@ const hideUI = msg => {
     lastAnswerDateText.style.display = 'none';
 };
 
-
-
 /* GET PUBLIC IP
 ************************************************************************************/
 const getIP = async () => {
@@ -112,8 +103,6 @@ const getIP = async () => {
         console.error(err);
     }
 }; 
-
-
 
 // TRY TO PROCESS FIREBASE DATA, IF ERROR THEN HIDE SOME UI ELEMENTS
 try {
@@ -168,7 +157,6 @@ const setLocalObjToFirebaseData = (docData) => {
     setUI();
 };
 
-
 // setting Firebase data
 const setFirebaseDataToLocalObj = () => {
     try {
@@ -183,13 +171,11 @@ const setFirebaseDataToLocalObj = () => {
     }
 };
 
-
 /* GET TODAY'S DATE
 ---------------------------------------------------- */
 const getTimestamp = () => {
     return new Date().toUTCString();
 };
-
 
 /* SET DATA
 ---------------------------------------------------- */
